@@ -1,4 +1,3 @@
-```markdown
 # Product API
 
 Este é o backend de uma aplicação para gerenciar produtos, construído com NestJS e TypeScript e preparado para usar a base de dados conforme modelo enviado.
