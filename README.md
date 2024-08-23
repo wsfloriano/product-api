@@ -55,6 +55,8 @@ yarn start:dev
 ```
 
 O servidor estará rodando em [http://localhost:8001](http://localhost:8001).
+A conexão com o banco de dados está configurada em "src/utils/ormconfig.ts"
+Necessário criar o banco de dados conforme modelo enviado.
 
 ### Endpoints
 
@@ -65,7 +67,6 @@ O servidor estará rodando em [http://localhost:8001](http://localhost:8001).
 - `DELETE /products/:id`: Remove um produto.
 - `POST /products/upload`: Faz o upload de uma imagem.
 
-A conexão  com o banco de dados está configurada em "src/utils/ormconfig.ts"
 
 ### Exemplo de Requisição
 
